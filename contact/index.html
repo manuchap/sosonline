@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="scripts/validation.js"></script>
+	<script src="scripts/form.js"></script>
+	<script src="scripts/index.js"></script>
+</head>
+<body>
+	<form id="contact" action="scripts/mail.php" method="post">
+		<table>
+			<tr>
+				<td>Nom</td>
+				<td><input type="text" name="Your_Name" /></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input type="text" name="Email_Address" /></td>
+			</tr>
+			<tr>
+				<td>Message</td>
+				<td><textarea name="Message" rows="10"></textarea></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><input type="submit" value="Envoyer" /></td>
+			</tr>
+		</table>
+	</form>
+	<div id="message" style="display: none;"></div>
+</body>
+</html>
