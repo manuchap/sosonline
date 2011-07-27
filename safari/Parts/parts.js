@@ -37,7 +37,7 @@ var dashcodePartSpecs = {
     "joinable": { "text": "Joignable", "view": "DC.Text" },
     "main_stackLayout": { "subviewsTransitions": [{ "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }], "view": "DC.StackLayout" },
     "occupe": { "text": "Occupé", "view": "DC.Text" },
-    "slogan": { "text": "Dépannages informatiques à distance sans installation de logiciel. Je pilote votre machine et vous me regardez faire!", "view": "DC.Text" },
+    "slogan": { "text": "Dépannages informatiques à distance sans installation de logiciel.\nJe pilote votre machine et vous me regardez faire!", "view": "DC.Text" },
     "statuslight": { "baseImagesPath": "..", "criticalValue": 3, "onValue": 1, "value": 2, "view": "DC.Indicator", "warningValue": 2 },
     "text_blog": { "text": "Mon Blog", "view": "DC.Text" },
     "text_intro": { "text": "Installation de logiciel, de pilotes,  déploiement de sites internet, astuces mac-linux-windows, création de blog paramétrage d'applications, de réseaux privés, de serveurs, didactitiels en ligne en video-conférence à plusieurs, etc, etc... comme si j'étais assis à côté de vous. Pour plus de détails sur ce que ja sais faire allez jeter un oeil sur:", "view": "DC.Text" },
@@ -53,16 +53,19 @@ var dashcodePartSpecs = {
     "text_next_tut3": { "text": "☞", "view": "DC.Text" },
     "text_next_tut4": { "text": "☞", "view": "DC.Text" },
     "text_next_tut5": { "text": "☞", "view": "DC.Text" },
-    "text_tut1": { "text": "Voyant vert:\nCliquez dessus!\nRejoignez moi sur la messagerie privé .", "view": "DC.Text" },
+    "text_tut1": { "text": "Voyant vert:\nCliquez dessus!\nRejoignez moi sur la messagerie privée .", "view": "DC.Text" },
     "text_tut2": { "text": "Voyant jaune:\nJe suis en ligne!\nCliquez dessus et attendez qu'il passe au vert.", "view": "DC.Text" },
     "text_tut3": { "text": "Voyant rouge:\nJe m'occupe de quelqu'un !\nAttendez le voyant jaune ou allez sur la page \"contact\" pour me demander un r.d.v. online.", "view": "DC.Text" },
     "text_tut4": { "text": "Voyant gris:\nJe suis en vacances!\nAh… les Seychelles...", "view": "DC.Text" },
     "text_tut5": { "text": "L'écran suivant est une démo.\nCliquez \"Accueil\" ci-dessous pour revenir à… l'accueil", "view": "DC.Text" },
-    "text_tut6": { "text": "Attendez que le voyant passe au vert\n puis cliquez dessus. Si l'attente est trop\nlongue revener dans quelques minutes.", "view": "DC.Text" },
+    "text_tut6": { "text": "Attendez que le voyant passe au vert\n puis cliquez dessus. Si l'attente est trop\nlongue revenez dans quelques minutes.", "view": "DC.Text" },
     "text_tut7": { "text": "J'utilise le logiciel gratuit QuickSupport de chez TeamViewer. Il n'y a rien à installer. Une fois téléchargé, démarrez l'application et communiquez moi le code qui apparait à l'écran. (compatible mac-pc-linux-ios-androïd)", "view": "DC.Text" },
     "title": { "text": "S.O.S Online !", "view": "DC.Text" },
     "video": { "view": "DC.VideoLayout" }
 };
+
+
+
 
 
 
