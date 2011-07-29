@@ -89,11 +89,40 @@ function gocontact(event)
 
 function goinit(event)
 {
-    var stackLayout = document.getElementById('main_stackLayout').object;
-	stackLayout.setCurrentView('initchat');
-	
-}
+	var indicatorToChange = document.getElementById("statuslight");
+		if (indicatorToChange.object.value==0){
+			var stackLayout = document.getElementById('main_stackLayout').object;
+			stackLayout.setCurrentView('tut4');
+		}
+		if (indicatorToChange.object.value==3){
+			var stackLayout = document.getElementById('main_stackLayout').object;
+			stackLayout.setCurrentView('tut3');
+		}
+		if (indicatorToChange.object.value==1){
+			var stackLayout = document.getElementById('main_stackLayout').object;
+			stackLayout.setCurrentView('chat');
+		    var stackLayout = document.getElementById('header_stackLayout').object;
+			stackLayout.setCurrentView('home');
+		}
+		if (indicatorToChange.object.value==2){
+			var stackLayout = document.getElementById('main_stackLayout').object;
+			stackLayout.setCurrentView('initchat');
+			//send alert
+				var pusher = new Pusher('7f47b26baff3b03526e2');
+				var channel = pusher.subscribe('Chat');	
+				var indicatorToChange = document.getElementById("statuslight");
+				channel.bind('statuslight', function(data) {
+				indicatorToChange.object.setValue(data);
+					if (indicatorToChange.object.value==1) {
+						var stackLayout = document.getElementById('header_stackLayout').object;
+						stackLayout.setCurrentView('home');
+						var stackLayout = document.getElementById('main_stackLayout').object;
+						stackLayout.setCurrentView('chat');
+					}
+				});
 
+		}
+}
 
 function goblog(event)
 {

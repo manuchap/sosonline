@@ -10,7 +10,7 @@ window.ChatApp = { };
 /**
  * The server to connect to
  */
-window.ChatApp.serverUri = 'http://chatapp.herokuapp.com/';
+window.ChatApp.serverUri = 'http://soschat.cloudfoundry.com/';
 
 /**
  * Message Model

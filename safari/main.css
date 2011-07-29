@@ -430,31 +430,6 @@ body {
     min-height: 48px;
 }
 
-#icon_homelink {
-    cursor: pointer;
-    position: relative;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    width: 128px;
-    margin-left: 37px;
-    margin-right: 38px;
-    min-height: 128px;
-    height: auto;
-}
-
-#inner_image4 {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    top: 0px;
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-}
-
 #main_stackLayout {
     overflow: hidden;
     z-index: 0;
@@ -1510,22 +1485,13 @@ body {
     margin-right: auto;
 }
 
-#homelink {
-    position: relative;
-    height: auto;
-    width: 203px;
-    min-height: 128px;
-}
-
 #toolslink {
     position: relative;
     height: auto;
-    width: 203px;
     min-height: 128px;
-}
-
-#div12 {
-    width: 33%;
+    width: 203px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #div13 {
@@ -1537,6 +1503,8 @@ body {
     height: auto;
     width: 203px;
     min-height: 128px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #div14 {
@@ -1545,15 +1513,15 @@ body {
 
 #icon_chatlink {
     cursor: pointer;
-    width: 128px;
     height: 128px;
     position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
     margin-bottom: 0px;
+    margin-top: -6px;
+    width: 128px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -6px;
 }
 
 #inner_image12 {
@@ -1571,13 +1539,13 @@ body {
 
 #icon_toolslink {
     cursor: pointer;
-    width: 128px;
     height: 128px;
     position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
-    margin-right: auto;
-    margin-left: auto;
+    width: auto;
+    margin-right: 38px;
+    margin-left: 37px;
 }
 
 #inner_image13 {
@@ -1621,260 +1589,218 @@ body {
     left: 6px;
 }
 
-@media all and (max-width:945px) {
-#header {
-	background-image: url(Images/header%201.png);
-	border-width: 0px !important;
-	height: 119px;
-}
-
-#main {
-	margin-top: 35px;
-}
-
-#footer {
-	background-image: url(Images/footer.png);
-	margin-left: 0px;
-	position: relative;
-	margin-right: 0px;
-	margin-top: 72px;
-}
-
-#title {
-    font-size: 35px;
-}
-
-#slogan {
-    font-size: 15px;
-    min-height: 44px;
-}
-
-#header_stackLayout {
-    width: auto;
-    margin-right: 0px;
-    min-height: 99px;
-    height: auto;
-}
-
-#status {
-    min-height: 62px;
-}
-
-#statuslight {
-    width: 64px;
-    height: 64px;
-}
-
-#colums_lights {
-    width: 610px;
-    min-height: 48px;
-    margin-top: -31px;
-}
-
-#icon_online {
-    width: 16px;
-    height: 16px;
-}
-
-#inner_image {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#icon_chat {
-    width: 16px;
-    height: 16px;
-}
-
-#inner_image1 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#icon_busy {
-    width: 16px;
-    height: 16px;
-}
-
-#inner_image2 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#icon_offline {
-    width: 16px;
-    height: 16px;
-}
-
-#inner_image3 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#disponible {
-    font-size: 10px;
-}
-
-#joinable {
-    font-size: 10px;
-}
-
-#occupe {
-    font-size: 10px;
-}
-
-#absent {
-    font-size: 10px;
-}
-
-#icon_homelink {
-    width: 64px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 0px;
-    height: 64px;
-}
-
-#image_up_arrow1 {
-    margin-top: 0px;
-}
-
-#image_keyboard {
-    visibility: hidden;
-    height: 0px;
-}
-
-#Links {
-    -webkit-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgb(255, 255, 255))) 0 0 0 0 stretch stretch;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 29px;
-}
-
-#columns_links {
-    height: auto;
-    min-height: 0px;
-    width: 101.666667%;
-    margin-right: 0px;
-    margin-top: -3px;
-}
-
-#link1 {
-    width: auto;
-    margin-right: 0px;
-}
-
-#link2 {
-    width: auto;
-    margin-right: 0px;
-}
-
-#link3 {
-    width: auto;
-    margin-right: 0px;
-}
-
-#link4 {
-    width: auto;
-    margin-right: 0px;
-}
-#link5 {
-    width: auto;
-    margin-right: 0px;
-}
-
-#text_link1 {
-    font-size: 10px;
-    width: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-#text_link2 {
-    font-size: 10px;
-    width: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-#text_link3 {
-    font-size: 10px;
-    width: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-#text_link4 {
-    font-size: 10px;
-    width: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-#text_link5 {
-    font-size: 10px;
-    width: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-#lightclick {
-    width: 60px;
-    height: 60px;
-    margin-top: -77px;
-}
-
-#columns_home {
-    min-height: 64px;
-    height: auto;
-}
-
-#homelink {
-    height: 64px;
-}
-
-#toolslink {
-    height: 64px;
-}
-
-#chatlink {
-    height: 64px;
-}
-
-#icon_chatlink {
-    width: 64px;
-    height: 64px;
-    margin-top: 0px;
-}
-
-#icon_toolslink {
-    width: 64px;
-    height: 64px;
-    margin-top: 0px;
-}
-
-#div15 {
-    width: 20%;
-}
+@media (max-width: 945px) {
+    #header {
+        background-image: url(Images/header%201.png);
+        border-width: 0px !important;
+        height: 119px;
+    }
+    #main {
+        margin-top: 35px;
+    }
+    #footer {
+        background-image: url(Images/footer.png);
+        margin-left: 0px;
+        position: relative;
+        margin-right: 0px;
+        margin-top: 72px;
+    }
+    #title {
+        font-size: 35px;
+    }
+    #slogan {
+        font-size: 15px;
+        min-height: 44px;
+    }
+    #header_stackLayout {
+        width: auto;
+        margin-right: 0px;
+        min-height: 99px;
+        height: auto;
+    }
+    #status {
+        min-height: 62px;
+    }
+    #statuslight {
+        width: 64px;
+        height: 64px;
+    }
+    #colums_lights {
+        width: 610px;
+        min-height: 48px;
+        margin-top: -31px;
+    }
+    #icon_online {
+        width: 16px;
+        height: 16px;
+    }
+    #inner_image {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #icon_chat {
+        width: 16px;
+        height: 16px;
+    }
+    #inner_image1 {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #icon_busy {
+        width: 16px;
+        height: 16px;
+    }
+    #inner_image2 {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #icon_offline {
+        width: 16px;
+        height: 16px;
+    }
+    #inner_image3 {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #disponible {
+        font-size: 10px;
+    }
+    #joinable {
+        font-size: 10px;
+    }
+    #occupe {
+        font-size: 10px;
+    }
+    #absent {
+        font-size: 10px;
+    }
+    #icon_homelink {
+        width: 64px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0px;
+        height: 64px;
+    }
+    #image_up_arrow1 {
+        margin-top: 0px;
+    }
+    #image_keyboard {
+        visibility: hidden;
+        height: 0px;
+    }
+    #Links {
+        -webkit-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgb(255, 255, 255))) 0 0 0 0 stretch stretch;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 29px;
+    }
+    #columns_links {
+        height: auto;
+        min-height: 0px;
+        width: 101.666667%;
+        margin-right: 0px;
+        margin-top: -3px;
+    }
+    #link1 {
+        width: auto;
+        margin-right: 0px;
+    }
+    #link2 {
+        width: auto;
+        margin-right: 0px;
+    }
+    #link3 {
+        width: auto;
+        margin-right: 0px;
+    }
+    #link4 {
+        width: auto;
+        margin-right: 0px;
+    }
+    #link5 {
+        width: auto;
+        margin-right: 0px;
+    }
+    #text_link1 {
+        font-size: 10px;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #text_link2 {
+        font-size: 10px;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #text_link3 {
+        font-size: 10px;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #text_link4 {
+        font-size: 10px;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #text_link5 {
+        font-size: 10px;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #lightclick {
+        width: 60px;
+        height: 60px;
+        margin-top: -77px;
+    }
+    #columns_home {
+        min-height: 64px;
+        height: auto;
+    }
+    #homelink {
+        height: 64px;
+    }
+    #toolslink {
+        height: 64px;
+    }
+    #chatlink {
+        height: 64px;
+    }
+    #icon_chatlink {
+        width: 64px;
+        height: 64px;
+        margin-top: 0px;
+    }
+    #icon_toolslink {
+        width: 64px;
+        height: 64px;
+        margin-top: 0px;
+    }
+    #div15 {
+        width: 20%;
+    }
 }

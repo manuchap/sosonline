@@ -10,5 +10,12 @@
 //
 function load()
 {
-    dashcode.setupParts();
+    var pusher = new Pusher('7f47b26baff3b03526e2');
+    var channel = pusher.subscribe('Chat');
+	var indicatorToChange = document.getElementById("div");
+    channel.bind('statuslight', function(data) {
+      indicatorToChange.object.setValue(data);
+    });
+
+	dashcode.setupParts();
 }

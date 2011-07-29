@@ -8,8 +8,6 @@ body {
     margin: 0px;
     min-height: 356px;
     font-family: Helvetica;
-    background-image: url(../Images/backgroundStripes.png);
-    background-repeat: repeat;
 }
 
 #footer {
@@ -31,7 +29,22 @@ body {
     position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
-    min-height: 326px;
-    height: auto;
     width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    min-height: 480px;
+    height: auto;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#div {
+    margin-top: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: relative;
+    width: 128px;
+    height: 128px;
+    margin-left: 96px;
 }

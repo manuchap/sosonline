@@ -23,7 +23,6 @@ var dashcodePartSpecs = {
     "icon_busy": { "view": "DC.ImageLayout" },
     "icon_chat": { "view": "DC.ImageLayout" },
     "icon_chatlink": { "view": "DC.ImageLayout" },
-    "icon_homelink": { "view": "DC.ImageLayout" },
     "icon_offline": { "view": "DC.ImageLayout" },
     "icon_online": { "view": "DC.ImageLayout" },
     "icon_toolslink": { "view": "DC.ImageLayout" },
@@ -40,7 +39,7 @@ var dashcodePartSpecs = {
     "slogan": { "text": "Dépannages informatiques à distance sans installation de logiciel.\nJe pilote votre machine et vous me regardez faire!", "view": "DC.Text" },
     "statuslight": { "baseImagesPath": "..", "criticalValue": 3, "onValue": 1, "value": 2, "view": "DC.Indicator", "warningValue": 2 },
     "text_blog": { "text": "Mon Blog", "view": "DC.Text" },
-    "text_intro": { "text": "Installation de logiciel, de pilotes,  déploiement de sites internet, astuces mac-linux-windows, création de blog paramétrage d'applications, de réseaux privés, de serveurs, didactitiels en ligne en video-conférence à plusieurs, etc, etc... comme si j'étais assis à côté de vous. Pour plus de détails sur ce que ja sais faire allez jeter un oeil sur:", "view": "DC.Text" },
+    "text_intro": { "text": "Installation de logiciel, de pilotes,  déploiement de sites internet, astuces mac-linux-windows, création de blog paramétrage d'applications, de réseaux privés, de serveurs, didactitiels en ligne en video-conférence à plusieurs, etc, etc... comme si j'étais assis à côté de vous. Pour plus de détails sur ce que je sais faire allez jeter un oeil sur:", "view": "DC.Text" },
     "text_link1": { "text": "Accueil", "view": "DC.Text" },
     "text_link2": { "text": "Outils", "view": "DC.Text" },
     "text_link3": { "text": "Motivation", "view": "DC.Text" },
@@ -63,6 +62,8 @@ var dashcodePartSpecs = {
     "title": { "text": "S.O.S Online !", "view": "DC.Text" },
     "video": { "view": "DC.VideoLayout" }
 };
+
+
 
 
 
