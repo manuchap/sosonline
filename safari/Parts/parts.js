@@ -17,8 +17,10 @@ if(!window.dashcode){dashcode=new Object()}dashcode.setupParts=function(){if(das
 var dashcodePartSpecs = {
     "absent": { "text": "Absent", "view": "DC.Text" },
     "activityIndicator": { "view": "DC.ActivityIndicator" },
+    "beta": { "text": "Beta", "view": "DC.Text" },
     "credits": { "text": "Design et programmation Man8 © 2011-2022 - Informations légales sur demande - manuchap[at]gmail.com", "view": "DC.Text" },
     "disponible": { "text": "Disponible", "view": "DC.Text" },
+    "fade": { "text": "Bugs, critiques,… Merci de me les communiquer via la page \"Contact\".", "view": "DC.Text" },
     "header_stackLayout": { "subviewsTransitions": [{ "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }], "view": "DC.StackLayout" },
     "icon_busy": { "view": "DC.ImageLayout" },
     "icon_chat": { "view": "DC.ImageLayout" },
@@ -62,6 +64,9 @@ var dashcodePartSpecs = {
     "title": { "text": "S.O.S Online !", "view": "DC.Text" },
     "video": { "view": "DC.VideoLayout" }
 };
+
+
+
 
 
 

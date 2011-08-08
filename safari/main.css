@@ -26,7 +26,6 @@ body {
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
     position: relative;
-    margin-top: 70px;
     height: 400px;
     background-color: rgb(0, 0, 0);
     border-top-left-radius: 15px 15px;
@@ -37,6 +36,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     border-width: 3px !important;
+    margin-top: 71px;
 }
 
 #footer {
@@ -127,12 +127,12 @@ body {
     text-shadow: rgb(25, 51, 157) 2px 2px 0px;
     text-align: center;
     font-family: 'Lobster Two';
-    margin-top: 0px;
     margin-left: 0px;
     width: auto;
     margin-right: 0px;
     min-height: 70px;
     height: auto;
+    margin-top: 0px;
 }
 
 .selected #slogan {
@@ -661,22 +661,26 @@ body {
 }
 
 #text_next_tut1 {
-    font-family: 'Lucida Grande', Arial, sans-serif;
-    cursor: pointer;
     text-overflow: ellipsis;
     overflow: hidden;
-    position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
     font-size: 70px;
     text-align: center;
-    line-height: 40px;
-    margin-right: 221px;
     width: 140px;
-    margin-left: 440px;
     height: 53px;
-    margin-top: 86px;
     text-shadow: rgb(191, 191, 191) 2px 2px 4px;
+    font-family: Webdings;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    line-height: 60px;
+    position: absolute;
+    left: 440px;
+    top: 317px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
 }
 
 .selected #text_next_tut1 {
@@ -706,22 +710,26 @@ body {
 }
 
 #text_next_tut2 {
-    font-family: 'Lucida Grande', Arial, sans-serif;
     text-overflow: ellipsis;
-    cursor: pointer;
     overflow: hidden;
-    position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
     font-size: 70px;
     text-align: center;
-    line-height: 40px;
-    margin-right: 221px;
     width: 140px;
-    margin-left: 440px;
     height: 53px;
-    margin-top: 86px;
     text-shadow: rgb(191, 191, 191) 2px 2px 4px;
+    line-height: 60px;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    font-family: Webdings;
+    position: absolute;
+    left: 440px;
+    top: 317px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
 }
 
 .selected #text_next_tut2 {
@@ -817,22 +825,26 @@ body {
 }
 
 #text_next_tut3 {
-    font-family: 'Lucida Grande', Arial, sans-serif;
     text-overflow: ellipsis;
-    cursor: pointer;
     overflow: hidden;
-    position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
     font-size: 70px;
     text-align: center;
-    line-height: 40px;
-    margin-right: 221px;
     width: 140px;
-    margin-left: 440px;
     height: 53px;
     text-shadow: rgb(191, 191, 191) 2px 2px 4px;
-    margin-top: 46px;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    font-family: Webdings;
+    position: absolute;
+    left: 440px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 317px;
+    line-height: 60px;
 }
 
 .selected #text_next_tut3 {
@@ -862,22 +874,26 @@ body {
 }
 
 #text_next_tut4 {
-    font-family: 'Lucida Grande', Arial, sans-serif;
     text-overflow: ellipsis;
-    cursor: pointer;
     overflow: hidden;
-    position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
     font-size: 70px;
     text-align: center;
-    line-height: 40px;
-    margin-right: 221px;
     width: 140px;
-    margin-left: 440px;
     height: 53px;
     text-shadow: rgb(191, 191, 191) 2px 2px 4px;
-    margin-top: 86px;
+    line-height: 60px;
+    font-family: Webdings;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    position: absolute;
+    left: 440px;
+    top: 317px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
 }
 
 .selected #text_next_tut4 {
@@ -965,22 +981,26 @@ body {
 }
 
 #text_next_tut5 {
-    font-family: 'Lucida Grande', Arial, sans-serif;
     text-overflow: ellipsis;
-    cursor: pointer;
     overflow: hidden;
-    position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
     font-size: 70px;
     text-align: center;
-    line-height: 40px;
-    margin-right: 221px;
     width: 140px;
-    margin-left: 440px;
     height: 53px;
-    margin-top: 86px;
     text-shadow: rgb(191, 191, 191) 2px 2px 4px;
+    font-family: Webdings;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    line-height: 60px;
+    position: absolute;
+    left: 440px;
+    top: 317px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
 }
 
 .selected #text_next_tut5 {
@@ -1565,28 +1585,68 @@ body {
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
     position: absolute;
-    margin-top: 0px;
-    left: 0px;
-    top: 0px;
-    right: 913px;
     width: auto;
-    bottom: 0px;
     height: auto;
 }
 
-#box {
-    border-color: black;
-    border-width: 1px;
+#beta {
+    font-family: 'Lobster Two';
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    -webkit-transform: rotate(-40deg);
+    writing-mode: lr-tb;
+    opacity: 1;
+    padding: 0px;
+    letter-spacing: 1px;
+    background-color: rgb(102, 204, 255);
+    text-shadow: rgb(0, 0, 0) 2px 2px 3px;
     height: 28px;
-    width: 98px;
     position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
+    margin-top: auto;
+    margin-left: auto;
+    left: -30px;
     top: 6px;
-    left: 6px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    line-height: 26px;
+    width: 106px;
+}
+
+#fade {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    font-family: Georgia;
+    color: rgb(102, 204, 255);
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.167969);
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    position: absolute;
+    margin-top: 0px;
+    width: 131px;
+    top: 33px;
+    left: 38px;
+    height: 78px;
+    opacity: 0;
+    filter:alpha(opacity='0')
+    font-size: 13px;
 }
 
 @media (max-width: 945px) {
@@ -1803,4 +1863,21 @@ body {
     #div15 {
         width: 20%;
     }
+}
+
+.addthis_counter {
+    height: 0px;
+    width: 0px;
+}
+
+#box {
+    border-color: black;
+    border-width: 1px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin-top: -18px;
+    margin-left: 5px;
 }

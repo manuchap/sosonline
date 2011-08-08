@@ -15,12 +15,16 @@
     <script type="text/javascript" src="../Parts/redirector.js"></script>
     <script type="text/javascript" src="Parts/parts.js" charset="utf-8"></script>
     <script type="text/javascript" src="main.js" charset="utf-8"></script>
+    <script type="text/javascript" src="fade.js" charset="utf-8"></script>
     <script src="http://js.pusherapp.com/1.8/pusher.min.js" type="text/javascript"></script>
 </head>
 <body onload="load();">
     <div id="header">
+        <noscript style="color:#FFF">Pour accéder à toutes les fonctionnalités de ce site, vous devez activer JavaScript.Voici les &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href="http://www.enable-javascript.com/fr/" target="_blank" style="color:#FFF"&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;instructions pour activer JavaScript dans votre navigateur Web&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;.</noscript>
+        <div id="fade"></div>
         <div id="title"></div>
         <div id="slogan"></div>
+        <div id="beta" onmouseover="fadein(event)" onmouseout="fadeout(event)" onclick="gocontact(event)"></div>
         <div id="header_stackLayout"><div id="status">
                 <div id="statuslight"></div>
                 <div id="colums_lights">
@@ -48,17 +52,9 @@
                             <div id="icon_toolslink" onclick="gotools(event)"><img src="../Images/tools.png" id="inner_image13"></div>
                         </div></div></div>
             </div></div>
-        <div id="box">
-            <div class="addthis_toolbox addthis_default_style">
-                <a class="addthis_counter addthis_pill_style"></a>
-            </div>
-            <script type="text/javascript">var addthis_config = {"data_track_clickback":true,"data_track_addressbar":true};</script>
-            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e2f28691fa7918a"></script>
-        </div>
     </div>
     <div id="main">
         <div id="main_stackLayout"><div id="intro">
-                <noscript>Pour accéder à toutes les fonctionnalités de ce site, vous devez activer JavaScript. Voici les &lt;a href="http://www.enable-javascript.com/fr/" target="_blank"&gt;instructions pour activer JavaScript dans votre navigateur Web&lt;/a&gt;.</noscript>
                 <div id="columns_intro">
                     <div style="position: relative; display: table-cell; vertical-align: top; height: auto; width: 50%; " id="div4"><div id="column_buoy">
                             <div id="image_buoy"><img src="../Images/buoy.png" id="inner_image5"></div>
@@ -151,6 +147,13 @@
     </div>
     <div id="footer">
         <div id="credits"></div>
+        <div id="box">
+            <div class="addthis_toolbox addthis_default_style" id="div12">
+                <a class="addthis_counter addthis_pill_style" id="a"></a>
+            </div>
+            <script type="text/javascript" id="script">var addthis_config = {"data_track_clickback":true,"data_track_addressbar":true};</script>
+            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e2f28691fa7918a" id="script1"></script>
+        </div>
     </div>
 </body>
 </html>
