@@ -20,7 +20,7 @@ var dashcodePartSpecs = {
     "beta": { "text": "Beta", "view": "DC.Text" },
     "credits": { "text": "Design et programmation Man8 © 2011-2022 - Informations légales sur demande - manuchap[at]gmail.com", "view": "DC.Text" },
     "disponible": { "text": "Disponible", "view": "DC.Text" },
-    "fade": { "text": "Bugs, critiques,… Merci de me les communiquer via la page \"Contact\".", "view": "DC.Text" },
+    "fade": { "text": "Bugs, critiques,… Merci de me les communiquer via la page Contact.", "view": "DC.Text" },
     "header_stackLayout": { "subviewsTransitions": [{ "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "1", "timing": "ease-in-out", "type": "push" }], "view": "DC.StackLayout" },
     "icon_busy": { "view": "DC.ImageLayout" },
     "icon_chat": { "view": "DC.ImageLayout" },
@@ -59,11 +59,13 @@ var dashcodePartSpecs = {
     "text_tut3": { "text": "Voyant rouge:\nJe m'occupe de quelqu'un !\nAttendez le voyant jaune ou allez sur la page \"contact\" pour me demander un r.d.v. online.", "view": "DC.Text" },
     "text_tut4": { "text": "Voyant gris:\nJe suis en vacances!\nAh… les Seychelles...", "view": "DC.Text" },
     "text_tut5": { "text": "L'écran suivant est une démo.\nCliquez \"Accueil\" ci-dessous pour revenir à… l'accueil", "view": "DC.Text" },
-    "text_tut6": { "text": "Attendez que le voyant passe au vert\n puis cliquez dessus. Si l'attente est trop\nlongue revenez dans quelques minutes.", "view": "DC.Text" },
-    "text_tut7": { "text": "J'utilise le logiciel gratuit QuickSupport de chez TeamViewer. Il n'y a rien à installer. Une fois téléchargé, démarrez l'application et communiquez moi le code qui apparait à l'écran. (compatible mac-pc-linux-ios-androïd)", "view": "DC.Text" },
+    "text_tut6": { "text": "Attendez que le voyant passe au vert.\n Si l'attente est trop longue revenez\ndans quelques minutes.", "view": "DC.Text" },
+    "text_tut7": { "text": "J'utilise le logiciel gratuit QuickSupport de chez TeamViewer. Il n'y a rien à installer. Une fois téléchargé, démarrez l'application et communiquez moi le code qui apparait à l'écran. compatible mac-pc-linux (ios-androïd)", "view": "DC.Text" },
     "title": { "text": "S.O.S Online !", "view": "DC.Text" },
     "video": { "view": "DC.VideoLayout" }
 };
+
+
 
 
 

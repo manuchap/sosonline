@@ -1452,20 +1452,15 @@ body {
 }
 
 #img {
-    width: 234px;
-    margin-right: 0px;
-    min-height: 0px;
-    -webkit-margin-top-collapse: collapse;
-    -webkit-margin-bottom-collapse: collapse;
-    margin-left: 0px;
-}
-
-#div11 {
+    border-style: solid;
+    -webkit-box-reflect: none;
+    opacity: 1;
+    width: 120px;
+    height: 60px;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
-    margin-left: 173px;
     margin-top: 0px;
-    -webkit-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgba(255, 255, 255, 0.496094))) 0 0 0 0 stretch stretch;
+    margin-left: 22px;
 }
 
 #text_tut7 {
@@ -1480,12 +1475,12 @@ body {
     text-shadow: rgb(191, 191, 191) 2px 2px 4px;
     margin-top: 0px;
     margin-left: 0px;
-    width: auto;
-    margin-right: 0px;
-    min-height: 207px;
-    height: auto;
     padding: 20px;
     letter-spacing: -1px;
+    width: auto;
+    margin-right: 0px;
+    min-height: 228px;
+    height: auto;
 }
 
 .selected #text_tut7 {
@@ -1891,4 +1886,117 @@ body {
     font-size: 15px;
     text-align: right;
     padding: 15px;
+}
+
+#columnLayout {
+    display: table;
+    overflow: hidden;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-left: 0px;
+    background-image: none;
+    -webkit-box-reflect: none;
+    width: 100%;
+    margin-right: 0px;
+    height: auto;
+    min-height: 40px;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#mac {
+    position: relative;
+    height: auto;
+    -webkit-box-reflect: none;
+    min-height: 40px;
+    margin-right: 32px;
+    margin-left: 32px;
+    width: auto;
+}
+
+#linux {
+    position: relative;
+    height: auto;
+    min-height: 40px;
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#div11 {
+    -webkit-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgba(255, 255, 255, 0.496094))) 0 0 0 0 stretch stretch;
+    width: 32%;
+}
+
+#div15 {
+    width: 30%;
+}
+
+#pc {
+    position: relative;
+    height: auto;
+    min-height: 40px;
+    width: auto;
+    margin-right: 42px;
+    margin-left: 0px;
+}
+
+#div16 {
+    width: 38%;
+}
+
+#div17 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#div18 {
+    -webkit-box-reflect: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#div19 {
+    margin-right: auto;
+    margin-left: 27px;
+}
+
+#img1 {
+    -webkit-box-reflect: none;
+    width: 120px;
+    height: 60px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-left: 0px;
+    margin-top: -1px;
+}
+
+#img2 {
+    -webkit-box-reflect: none;
+    width: 120px;
+    height: 60px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#a1 {
+    -webkit-box-reflect: none;
+    margin-right: 0px;
+    width: 0px;
+}
+
+#span {
+    -webkit-box-reflect: none;
+    text-shadow: rgb(255, 255, 255) 1px 1px 1px;
+}
+
+#span1 {
+    text-shadow: rgb(255, 255, 255) 1px 1px 1px;
+}
+
+#span2 {
+    text-shadow: rgb(255, 255, 255) 1px 1px 1px;
 }

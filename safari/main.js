@@ -107,7 +107,7 @@ function goinit(event)
 		if (indicatorToChange.object.value==2){
 			var stackLayout = document.getElementById('main_stackLayout').object;
 			stackLayout.setCurrentView('initchat');
-			//send alert
+			$.get('../mail.py');
 				var pusher = new Pusher('7f47b26baff3b03526e2');
 				var channel = pusher.subscribe('Chat');	
 				var indicatorToChange = document.getElementById("statuslight");
