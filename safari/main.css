@@ -1644,6 +1644,121 @@ body {
     font-size: 13px;
 }
 
+.demo {
+    -webkit-box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset, rgb(231, 231, 231) 0px 0px 5px 5px inset;
+    -moz-box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset, rgb(231, 231, 231) 0px 0px 5px 5px inset;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset, rgb(231, 231, 231) 0px 0px 5px 5px inset;
+    background-image: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    margin-bottom: 0px;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-top-left-radius: 3px 3px;
+    border-top-right-radius: 3px 3px;
+    border-bottom-right-radius: 3px 3px;
+    border-bottom-left-radius: 3px 3px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-left: 0px;
+    width: 58px;
+    margin-top: 0px;
+    height: 148px;
+    border-color: rgb(170, 170, 170);
+    background-color: rgb(238, 238, 238);
+}
+
+.demo:hover {
+    height: 151px;
+    -webkit-box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset;
+    -moz-box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset;
+}
+
+.demo ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+}
+
+.demo li {
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+}
+
+.demo a {
+    height: 24px;
+    width: 100%;
+    padding-top: 6px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: block;
+}
+
+.demo li:hover {
+    background-image: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(249, 249, 249);
+}
+
+.first {
+    height: 39px;
+}
+
+.last {
+    height: 39px;
+    -moz-border-radius: 3px;
+    border-radius: 0 0 3px 3px;
+    border-top-left-radius: 0px 0px;
+    border-top-right-radius: 0px 0px;
+    border-bottom-right-radius: 3px 3px;
+    border-bottom-left-radius: 3px 3px;
+}
+
+.demo span {
+    background-image: url(Images/btn_bg.png);
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    color: rgb(245, 110, 99);
+    font-size: 11px;
+    line-height: 30px;
+    font-weight: bold;
+    background-position: 0px 3px;
+    background-repeat: no-repeat no-repeat;
+}
+
+.menuslide:hover {
+    height: 30px;
+}
+
+.logo {
+    margin-top: 76px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+
+/* media queries */
 @media (max-width: 945px) {
     #header {
         background-image: url(Images/header%201.png);
@@ -1865,18 +1980,6 @@ body {
     width: 0px;
 }
 
-#box {
-    border-color: black;
-    border-width: 1px;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    position: relative;
-    width: 100px;
-    height: 30px;
-    margin-top: -18px;
-    margin-left: 5px;
-}
-
 #noscript {
     text-overflow: clip;
     overflow: hidden;
@@ -1999,4 +2102,40 @@ body {
 
 #span2 {
     text-shadow: rgb(255, 255, 255) 1px 1px 1px;
+}
+
+.scroll {
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: absolute;
+    margin-top: 0px;
+    width: 60px;
+    height: 154px;
+    top: 29px;
+    right: 22px;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.shareme {
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    min-height: 29px;
+    height: auto;
+}
+
+#box {
+    border-color: black;
+    border-width: 1px;
+    position: absolute;
+    margin-top: 0px;
+    top: 0px;
+    width: 113px;
+    height: 213px;
+    margin-left: auto;
+    margin-bottom: auto;
+    right: 0px;
 }

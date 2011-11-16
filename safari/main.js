@@ -167,3 +167,4 @@ function fadeout(event)
 {
     fadeEffect.init('fade', 0);
 }
+
