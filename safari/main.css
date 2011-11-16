@@ -93,7 +93,6 @@ body {
     text-overflow: ellipsis;
     overflow: hidden;
     position: relative;
-    margin-left: 0px;
     height: auto;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
@@ -107,7 +106,8 @@ body {
     font-family: 'Lobster Two';
     min-height: 0px;
     width: auto;
-    margin-right: 0px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .selected #title {
@@ -127,12 +127,13 @@ body {
     text-shadow: rgb(25, 51, 157) 2px 2px 0px;
     text-align: center;
     font-family: 'Lobster Two';
-    margin-left: 0px;
     width: auto;
-    margin-right: 0px;
     min-height: 70px;
     height: auto;
     margin-top: 0px;
+    margin-right: 90px;
+    margin-bottom: 0px;
+    margin-left: 90px;
 }
 
 .selected #slogan {
@@ -144,12 +145,12 @@ body {
     z-index: 0;
     position: relative;
     width: auto;
-    margin-right: 0px;
-    margin-left: 0px;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
     height: 140px;
     margin-top: 0px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 #status {
@@ -1667,12 +1668,12 @@ body {
     border-bottom-left-radius: 3px 3px;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
-    margin-left: 0px;
     width: 58px;
-    margin-top: 0px;
     height: 148px;
     border-color: rgb(170, 170, 170);
     background-color: rgb(238, 238, 238);
+    margin-left: 26px;
+    margin-top: 31px;
 }
 
 .demo:hover {
@@ -2147,8 +2148,8 @@ body {
     border-width: 2px;
     border-color: rgb(164, 164, 164);
     margin-bottom: 0px;
-    margin-top: -22px;
     width: 80px;
     height: 27px;
     margin-left: 6px;
+    margin-top: -20px;
 }
